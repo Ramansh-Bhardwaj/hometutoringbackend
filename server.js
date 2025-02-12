@@ -11,11 +11,11 @@ const app = express();
 // ✅ Configure CORS to allow frontend (Both Localhost & Deployed)
 const allowedOrigins = [
   "http://localhost:5173",  // Local development
-    "https://hometutoringfrontend.vercel.app/"
+    "https://hometutoringfrontend-58c7n6v6m-ramansh-bhardwajs-projects.vercel.app/"
 ];
 
 app.use(cors({
-  origin: ["https://hometutoringfrontend-58c7n6v6m-ramansh-bhardwajs-projects.vercel.app/"],
+  origin: ["https://hometutoringfrontend-58c7n6v6m-ramansh-bhardwajs-projects.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
