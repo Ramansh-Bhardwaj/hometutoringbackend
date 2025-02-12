@@ -15,7 +15,7 @@ const allowedOrigins = [
 ];
 
 app.use(cors({
-  origin: ["https://hometutoringfrontend-h7isfaipf-ramansh-bhardwajs-projects.vercel.app"],
+  origin: ["https://hometutoringfrontend-58c7n6v6m-ramansh-bhardwajs-projects.vercel.app/"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
