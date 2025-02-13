@@ -12,7 +12,7 @@ const app = express();
 // ✅ Correct CORS Configuration
 const allowedOrigins = [
   "http://localhost:5173",  // Local Dev
-  "https://hometutoringfrontend-navgjvxuc-ramansh-bhardwajs-projects.vercel.app"  // Deployed Frontend URL (Update if needed)
+  "https://hometutoringfrontend-p6xr2lqx7-ramansh-bhardwajs-projects.vercel.app"  // Deployed Frontend URL (Update if needed)
 ];
 
 app.use(cors({
