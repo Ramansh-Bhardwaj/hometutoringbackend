@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const sendEmail = require("./utils/email"); // 📩 Import Email Utility
+const sendEmail = require("./utlis/email"); // 📩 Import Email Utility
 
 // Load environment variables
 dotenv.config();
