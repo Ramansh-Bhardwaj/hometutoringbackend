@@ -13,9 +13,9 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",  // Local Dev
   "https://hometutoringfrontend-p6xr2lqx7-ramansh-bhardwajs-projects.vercel.app",
-  //   // Deployed Frontend URL (Update if needed)
-  "https://hometutoringfrontend-git-main-ramansh-bhardwajs-projects.vercel.app/",
-  "https://hometutoringfrontend-251da5dxh-ramansh-bhardwajs-projects.vercel.app/"
+  "https://hometutoringfrontend-git-main-ramansh-bhardwajs-projects.vercel.app",
+  "https://hometutoringfrontend-251da5dxh-ramansh-bhardwajs-projects.vercel.app",
+  "https://hometutoringfrontend.vercel.app"
 ];
 
 app.use(cors({
