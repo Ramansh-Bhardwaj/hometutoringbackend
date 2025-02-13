@@ -15,7 +15,8 @@ const allowedOrigins = [
   "https://hometutoringfrontend-p6xr2lqx7-ramansh-bhardwajs-projects.vercel.app",
   "https://hometutoringfrontend-git-main-ramansh-bhardwajs-projects.vercel.app",
   "https://hometutoringfrontend-251da5dxh-ramansh-bhardwajs-projects.vercel.app",
-  "https://hometutoringfrontend.vercel.app"
+  "https://hometutoringfrontend.vercel.app",
+  "https://www.protonclasses.in"
 ];
 
 app.use(cors({
